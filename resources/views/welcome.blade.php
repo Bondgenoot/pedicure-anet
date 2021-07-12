@@ -74,6 +74,61 @@
     </div>
   </div>
 
+  <div class="bg-light py-4 py-md-5">
+    <div class="container py-4 py-md-5">
+      <div class="row">
+        <div class="col-12">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-cf26a924-8251-4315-aff9-9d7c5cc7580e"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-light py-4 py-md-5">
+    <div class="container py-4 py-md-5">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-12 col-md-10 text-center">
+            <h2 style="font-family: alisha, sans-serif;" class="display-3 text-secondary">
+                Prijslijst
+            </h2>
+            <a href="/files/prijslijst.pdf" download>
+                <img src="/images/prijslijst.jpg" alt="Prijslijst - Pedicure Anet">
+            </a>
+            <br /><br />
+            <a href="/files/prijslijst.pdf" download class="btn btn-lg btn-primary text-light">
+                Download de prijslijst
+            </a>
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-primary py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-xl-1"></div>
+        <div class="col-xl-3">
+            <h3 class="text-light">Contact</h3>
+            <p class="text-light">
+                Rietveld-erf 36<br />
+                3315 DB, Dordrecht
+            </p>
+            <p class="text-light">
+                <a class="text-light" href="mailto:pedicureanet@outlook.com">
+                    pedicureanet@outlook.com
+                </a>
+            </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
