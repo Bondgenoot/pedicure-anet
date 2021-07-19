@@ -15,7 +15,7 @@
   <nav class="navbar navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="{{ route('home') }}">
-        <img src="/images/pedicure-anet-logo.svg" alt="" width="100">
+        <img src="{{ asset('images/pedicure-anet-logo.svg') }}" alt="" width="100">
       </a>
     </div>
   </nav>
@@ -26,7 +26,7 @@
         <div class="col-xl-1"></div>
         <div class="col-12 col-md-4 col-xl-3">
           <span class="h1">Welkom bij</span><br /><br />
-          <img class="mb-5" src="/images/pedicure-anet-logo.svg" alt="Pedicure Anet" width="206">
+          <img class="mb-5" src="{{ asset('images/pedicure-anet-logo.svg') }}" alt="Pedicure Anet" width="206">
           <h1 class="invisible position-absolute">Pedicure Anet</h1>
           <p class="lead">
             Een gezellige pedicure voor de werkende mens en
@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-1 col-xl-1"></div>
         <div class="col-12 col-md-7 col-xl-6 mb-5">
-          <img class="rounded" src="/images/pedicure-anet-salon.jpeg" alt="Pedicure Anet salon" width="100%" />
+          <img class="rounded" src="{{ asset('images/pedicure-anet-salon.jpeg') }}" alt="Pedicure Anet salon" width="100%" />
         </div>
         <div class="col-xl-1"></div>
       </div>
@@ -47,7 +47,7 @@
       <div class="row">
         <div class="col-xl-1"></div>
         <div class="col-xl-3">
-            <img src="/images/anette-tempelaar-bakker.jpeg" alt="Pedicure Anet" width="100%">
+            <img src="{{ asset('images/anette-tempelaar-bakker.jpeg') }}" alt="Pedicure Anet" width="100%">
         </div>
         <div class="col-xl-1"></div>
         <div class="col-xl-6">
@@ -93,11 +93,11 @@
             <h2 style="font-family: alisha, sans-serif;" class="display-3 text-secondary">
                 Prijslijst
             </h2>
-            <a href="/files/prijslijst.pdf" download>
-                <img src="/images/prijslijst.jpg" alt="Prijslijst - Pedicure Anet">
+            <a href="{{ asset('files/prijslijst.pdf') }}" download>
+                <img src="{{ asset('images/prijslijst.jpg') }}" alt="Prijslijst - Pedicure Anet">
             </a>
             <br /><br />
-            <a href="/files/prijslijst.pdf" download class="btn btn-lg btn-primary text-light">
+            <a href="{{ asset('files/prijslijst.pdf') }}" download class="btn btn-lg btn-primary text-light">
                 Download de prijslijst
             </a>
         </div>
