@@ -13,10 +13,22 @@
 </head>
 <body>
   <nav class="navbar navbar-light bg-light">
-    <div class="container">
+    <div class="container justify-content-between">
       <a class="navbar-brand" href="{{ route('home') }}">
         <img src="{{ asset('images/pedicure-anet-logo.svg') }}" alt="" width="100">
       </a>
+      <div>
+          <a href="mailto:pedicureanet@outlook.com" class="btn btn-primary text-light">
+            Stuur een e-mail
+          </a>
+          <a href="tel:+31647262704" class="btn btn-primary text-light">
+            Bel voor een afspraak
+          </a>
+          <a href="https://www.facebook.com/Pedicure-Anet-107111838095537" target="_blank"
+             class="btn btn-primary text-light">
+            Facebook
+          </a>
+      </div>
     </div>
   </nav>
 
@@ -56,8 +68,8 @@
                 Anette Tempelaar
             </span>
             <p class="text-light lead">
-                Ik ben Anette Tempelaar. Ik ben 52 jaar oud, getrouwd en heb 2
-                lieve kinderen van 27 & 30 jaar oud. Mijn energie haal ik uit het
+                Ik ben Anette Tempelaar. Ik ben 53 jaar oud, getrouwd en heb 2
+                lieve kinderen van 28 & 30 jaar oud. Mijn energie haal ik uit het
                 werken met mensen.
             </p>
             <p>
