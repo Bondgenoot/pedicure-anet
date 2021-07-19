@@ -72,13 +72,15 @@
                 lieve kinderen van 28 & 30 jaar oud. Mijn energie haal ik uit het
                 werken met mensen.
             </p>
-            <p>
-
-            </p>
-            <p>
+            <p class="text-light">
                 Ik vind het leuk om met mensen te werken. Daarnaast vind ik het
                 ook fijn om mensen te verzorgen. Hierom heb ik jou graag als
                 klant in mijn Pedicure salon.
+            </p>
+            <br /><br />
+            <p class="text-light">
+                <strong>Momenteel ben ik nog 2 dagen werkzaam in het Ziekenhuis. Hierdoor ben ik op dinsdag
+                en donderdag pas vanaf 17:00 te bereiken.</strong>
             </p>
         </div>
         <div class="col-xl-1"></div>
