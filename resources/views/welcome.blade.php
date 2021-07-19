@@ -94,7 +94,7 @@
                 Prijslijst
             </h2>
             <a href="{{ asset('files/prijslijst.pdf') }}" download>
-                <img src="{{ asset('images/prijslijst.jpg') }}" alt="Prijslijst - Pedicure Anet">
+                <img src="{{ asset('images/prijslijst.jpg') }}" width="100%" alt="Prijslijst - Pedicure Anet">
             </a>
             <br /><br />
             <a href="{{ asset('files/prijslijst.pdf') }}" download class="btn btn-lg btn-primary text-light">
