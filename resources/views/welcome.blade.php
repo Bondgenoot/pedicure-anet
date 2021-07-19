@@ -65,10 +65,10 @@
         <div class="col-xl-6">
             <h2 class="text-light">Even voorstellen</h2>
             <span style="font-family: alisha, sans-serif;" class="display-3 text-secondary">
-                Anette Tempelaar
+                Anette Tempelaar-Bakker
             </span>
             <p class="text-light lead">
-                Ik ben Anette Tempelaar. Ik ben 53 jaar oud, getrouwd en heb 2
+                Ik ben Anette Tempelaar-Bakker. Ik ben 53 jaar oud, getrouwd en heb 2
                 lieve kinderen van 28 & 30 jaar oud. Mijn energie haal ik uit het
                 werken met mensen.
             </p>
@@ -132,6 +132,9 @@
             <p class="text-light">
                 <a class="text-light" href="mailto:pedicureanet@outlook.com">
                     pedicureanet@outlook.com
+                </a><br />
+                <a class="text-light" href="tel:+31647262704">
+                    06 - 47 26 27 04
                 </a>
             </p>
 
