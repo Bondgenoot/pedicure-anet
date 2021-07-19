@@ -106,7 +106,7 @@
         <div class="col-12 col-md-10 text-center">
             <h2 style="font-family: alisha, sans-serif;" class="display-3 text-secondary">
                 Prijslijst
-            </h2>
+            </h2><br />
             <a href="{{ asset('files/prijslijst.pdf') }}" download>
                 <img src="{{ asset('images/prijslijst.jpg') }}" width="100%" alt="Prijslijst - Pedicure Anet">
             </a>
