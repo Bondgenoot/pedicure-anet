@@ -8,7 +8,6 @@
 
   <!-- Fonts -->
   <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-  <link rel="stylesheet" href="https://use.typekit.net/ybg3bti.css">
 
 </head>
 <body>
@@ -64,7 +63,7 @@
         <div class="col-xl-1"></div>
         <div class="col-xl-6">
             <h2 class="text-light">Even voorstellen</h2>
-            <span style="font-family: alisha, sans-serif;" class="display-3 text-secondary">
+            <span style="font-family: 'Dancing script', sans-serif;" class="display-3 text-secondary">
                 Anette Tempelaar-Bakker
             </span>
             <p class="text-light lead">
