@@ -1,5 +1,7 @@
-$font-family-sans-serif: Georgia, "Times New Roman", Times, serif;
-$headings-font-family: bree, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-family-sans-serif: 'Roboto', "Times New Roman", Times, serif;
+$headings-font-family: 'Libre Baskerville', serif;
 
 $primary: #0f9ea0;
 $secondary: #3f245c;
