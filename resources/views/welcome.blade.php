@@ -103,7 +103,7 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-12 col-md-10 text-center">
-            <h2 style="font-family: alisha, sans-serif;" class="display-3 text-secondary">
+            <h2 style="font-family: 'Dancing script', sans-serif;" class="display-3 text-secondary">
                 Prijslijst
             </h2><br />
             <a href="{{ asset('files/prijslijst.pdf') }}" download>
