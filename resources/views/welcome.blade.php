@@ -113,12 +113,6 @@
             <a href="{{ asset('files/prijslijst.pdf') }}" download class="btn btn-lg btn-primary text-light">
                 Download de prijslijst
             </a>
-            <br /><br />
-            <p class="w-75 m-auto">
-              Helaas moet ik alvast mededelen dat per 1 oktober de prijzen voor de behandelingen met € 2,50 omhoog
-              gaan. Dit i.v.m. de prijsstijgingen op producten en apparatuur wat ik aan moet schaffen om de
-              behandelingen te verrichten.
-            </p>
         </div>
         <div class="col-md-1">
         </div>
