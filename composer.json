@@ -1,7 +1,7 @@
 {
     "name": "bondgenoot/pedicure-anet",
     "type": "project",
-    "version":  "1.1.4",
+    "version":  "1.1.5",
     "description": "Website for the pedicure salon Pedicure Anet.",
     "keywords": ["framework", "laravel", "website"],
     "license": "MIT",
