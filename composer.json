@@ -1,8 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "bondgenoot/pedicure-anet",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "version":  "1.1.0",
+    "description": "Website for the pedicure salon Pedicure Anet.",
+    "keywords": ["framework", "laravel", "website"],
     "license": "MIT",
     "repositories": [
         {
