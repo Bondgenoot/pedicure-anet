@@ -17,7 +17,6 @@ use Spatie\EloquentSortable\SortableTrait;
  * @property int $index
  * @property-read Carbon $updated_at;
  * @property-read Carbon $created_at
- *
  * @property Collection items
  *
  * @method static Builder ordered(string $direction = 'asc')
@@ -50,6 +49,7 @@ class PriceListCategory extends Model implements Sortable
     /**
      * The has-many relationship with the price list items.
      *p
+     *
      * @return HasMany
      */
     public function items(): HasMany

@@ -18,7 +18,6 @@ use Spatie\EloquentSortable\SortableTrait;
  * @property int $index
  * @property-read Carbon $updated_at
  * @property-read Carbon $created_at
- *
  * @property PriceListCategory $category
  */
 class PriceListItem extends Model implements Sortable
