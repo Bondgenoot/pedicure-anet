@@ -1,18 +1,27 @@
+# NPM / yarn
 /node_modules
+yarn-error.log
+npm-debug.log
+
+# Git
+auth.json
+
+# Composer
+/vendor
+
+# Jetbrains
+.idea/
+
+# Laravel
+/public/css
+/public/js
+/public/manifest.json
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
 .env
 .env.backup
 .phpunit.result.cache
-docker-compose.override.yml
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-.vapor/
-.env.production
-.env.staging
-.idea/
-auth.json
+
+
+
