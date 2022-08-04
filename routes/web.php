@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\PriceListCategory;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('', function () {
-    return view('welcome');
+    $categories = PriceListCategory::ordered()
+        ->with('items')
+        ->get();
+
+    return view('welcome', [
+        'priceList' => $categories
+    ]);
 })->name('home');

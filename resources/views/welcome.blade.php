@@ -106,9 +106,9 @@
             <h2 style="font-family: 'Dancing script', sans-serif;" class="display-3 text-secondary">
                 Prijslijst
             </h2><br />
-            <a href="{{ asset('files/prijslijst.pdf') }}" download>
-                <img src="{{ asset('images/prijslijst.jpg') }}" width="100%" alt="Prijslijst - Pedicure Anet">
-            </a>
+            @foreach ($priceList as $category)
+              @include('partials.price-list-category', ['category' => $category])
+            @endforeach
             <br /><br />
             <a href="{{ asset('files/prijslijst.pdf') }}" download class="btn btn-lg btn-primary text-light">
                 Download de prijslijst

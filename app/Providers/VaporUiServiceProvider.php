@@ -28,7 +28,7 @@ class VaporUiServiceProvider extends ServiceProvider
     {
         Gate::define('viewVaporUI', function ($user = null) {
             return in_array(optional($user)->email, [
-                'info@mentod.nl'
+                'info@mentod.nl',
             ]);
         });
     }
