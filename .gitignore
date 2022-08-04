@@ -20,10 +20,5 @@ auth.json
 .env.backup
 .phpunit.result.cache
 
-# Laravel style & scripts
-/public/css
-/public/js
-/public/mix-manifest.json
-
 
 
