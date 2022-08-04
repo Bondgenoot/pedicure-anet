@@ -20,6 +20,6 @@ Route::get('', function () {
         ->get();
 
     return view('welcome', [
-        'priceList' => $categories
+        'priceList' => $categories,
     ]);
 })->name('home');

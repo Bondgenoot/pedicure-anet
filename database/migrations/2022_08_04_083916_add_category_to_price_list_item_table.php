@@ -14,7 +14,6 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('price_list_items', function (Blueprint $table) {
-
             $table->unsignedBigInteger('price_list_category_id')
                 ->after('id');
 
@@ -22,7 +21,6 @@ return new class extends Migration
                 ->references('id')
                 ->on('price_list_categories')
                 ->onDelete('CASCADE');
-
         });
     }
 
@@ -34,11 +32,9 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('price_list_items', function (Blueprint $table) {
-
             $table->dropForeign('category_id');
 
             $table->dropColumn('category_id');
-
         });
     }
 };

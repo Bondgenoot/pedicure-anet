@@ -110,5 +110,4 @@ class PriceListCategoryResource extends Resource
     {
         return 'Categorie';
     }
-
 }
