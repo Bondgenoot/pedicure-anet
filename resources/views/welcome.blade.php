@@ -110,7 +110,7 @@
               @include('partials.price-list-category', ['category' => $category])
             @endforeach
             <br /><br />
-            <a href="{{ asset('files/prijslijst.pdf') }}" download class="btn btn-lg btn-primary text-light">
+            <a href="{{ url('files/prijslijst-pedicure-anet.pdf') }}" download class="btn btn-lg btn-primary text-light">
                 Download de prijslijst
             </a>
         </div>
