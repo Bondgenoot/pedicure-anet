@@ -56,8 +56,8 @@ class PriceListItem extends Model implements Sortable
     {
         return $this->belongsTo(
             PriceListCategory::class,
-            'id',
             'price_list_category_id',
+            'id',
         );
     }
 }
