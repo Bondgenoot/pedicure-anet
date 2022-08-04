@@ -54,6 +54,10 @@ class PriceListCategory extends Model implements Sortable
      */
     public function items(): HasMany
     {
-        return $this->hasMany(PriceListItem::class);
+        return $this->hasMany(
+            PriceListItem::class,
+            'price_list_category_id',
+            'id',
+        );
     }
 }
