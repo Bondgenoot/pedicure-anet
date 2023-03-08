@@ -67,8 +67,8 @@
                 Anette Tempelaar-Bakker
             </span>
             <p class="text-light lead">
-                Ik ben Anette Tempelaar-Bakker. Ik ben 53 jaar oud, getrouwd en heb 2
-                lieve kinderen van 28 & 30 jaar oud. Mijn energie haal ik uit het
+                Ik ben Anette Tempelaar-Bakker. Ik ben 55 jaar oud, getrouwd en heb 2
+                lieve kinderen. Mijn energie haal ik uit het
                 werken met mensen.
             </p>
             <p class="text-light">
@@ -109,10 +109,10 @@
             @foreach ($priceList as $category)
               @include('partials.price-list-category', ['category' => $category])
             @endforeach
-            <br /><br />
-            <a href="{{ url('files/prijslijst-pedicure-anet.pdf') }}" download class="btn btn-lg btn-primary text-light">
-                Download de prijslijst
-            </a>
+{{--            <br /><br />--}}
+{{--            <a href="{{ url('files/prijslijst-pedicure-anet.pdf') }}" download class="btn btn-lg btn-primary text-light">--}}
+{{--                Download de prijslijst--}}
+{{--            </a>--}}
         </div>
         <div class="col-md-1">
         </div>
